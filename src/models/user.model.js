@@ -12,7 +12,13 @@ const save = (user) => {
     users.push(user);
     return user;
 }
+
+const getAllUsers = () => {
+    return users;
+}
+
 module.exports = {
     User,
-    save
+    save,
+    getAllUsers
 };
