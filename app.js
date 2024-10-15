@@ -1,5 +1,5 @@
 const express = require('express');
-    const userRoute = require('./routes/user.route');
+    const userRoute = require('./src/routes/user.route');
     const path = require('path');
     const app = express();
     // Establecemos Pug como motor de plantillas

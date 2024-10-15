@@ -14,5 +14,5 @@ const save = (user) => {
 }
 module.exports = {
     User,
-    sav
+    save
 };
